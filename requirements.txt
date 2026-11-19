@@ -1,0 +1,6 @@
+opencv-python
+numpy
+pymupdf
+easyocr
+sentence-transformers
+scikit-learn
