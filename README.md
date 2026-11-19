@@ -109,27 +109,6 @@ python main.py
 
 The first run downloads the OCR and embedding models, which can take a few minutes. After that the program keeps running and refreshes `output/ats_report.txt` automatically whenever `samples/resume.pdf` or `samples/job.txt` is saved. Press `Ctrl + C` to stop.
 
-## Try it with the sample files
-
-The `samples/` folder has fictional files you can use straight away:
-
-| File | Purpose |
-| --- | --- |
-| `sample_job_data_analyst.txt` | A sample Data Analyst job description (written for testing, not an official posting) |
-| `sample_resume_good.pdf` | A clean, single-column resume that should score well |
-| `sample_resume_two_column.pdf` | The same content in a two-column layout with a table, which the layout check flags |
-
-Analyze both resumes against the same job description and compare the scores. The only difference is the layout.
-
-## Sample output
-
-**Annotated resume** (green = confident, red = low-confidence text):
-
-![Annotated resume](docs/images/annotated_page1.png)
-
-**ATS report:**
-
-![ATS report](docs/images/ats_report.png)
 
 ## Limitations
 
@@ -149,9 +128,8 @@ Analyze both resumes against the same job description and compare the scores. Th
 
 | Name | Roll No. |
 | --- | --- |
-| Sushrut Diwan | 23RA015 |
-| Ayush Bhalla | 23RA003 |
-| Payal Ghuge | 23RA018 |
+| Sushrut Diwan | 23RA015 | AISSMS COE
+
 
 ## License
 
